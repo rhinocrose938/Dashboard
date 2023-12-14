@@ -26,8 +26,8 @@ export default function Sidebar() {
         Notifications
         <div className="item3-sidebar-in">
           <ol>
-            {sidebarData.notifications.map((obj, id) => (
-              <li key={id}>{obj.message}</li>
+            {sidebarData.notifications.map((obj) => (
+              <li key={obj.id}>{obj.message}</li>
             ))}
           </ol>
         </div>
